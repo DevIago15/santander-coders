@@ -26,3 +26,19 @@ Esse estado se define em fazer todas as configurações do arquivo (git add, git
 * Podemos utilizar o *git restore* para retornar uma versão, podemos passar no restore todos os arquivos ou algo específico como por exemplo: *git restore ./README.md* onde só ira retornar a última atualização do readme.md.
 
 * O comando *git restore* pode ser utilizado tanto na área de STAGED (quando já preparamos o arquivo/projeto para commitar) ou no estado MODIFIED (quando modificamos mas não demos add).
+
+* O comando *git pull* serve para puxar do repositório online todas as alterações que foram feitas no arquivo/projeto e AUTOMATICAMENTE mergear o mesmo.
+
+* Para verificar antes o que irá vir para o código, podemos utilizar o comando *git fetch* que não irá mergear AUTOMATICAMENTE, ele apenas irá puxar o que está no repositório online e juntamente com um comando de *git diff origin/nome_branch* iremos ver quais foram as alterações e aí sim decidir se iremos fazer o *pull* ou não.
+
+# O que são Branches?
+Branches são ramificações onde pode-se desenvolver arquivos/projetos em paralelo, exemplo: Eu estou desenvolvendo o front-end da minha aplicação na branch *master*, outra pessoa, juntamente com a criação da sua branch *main* pode fazer o back-end da aplicação e posteriormente poderemos juntarmos as duas branches com o *merged*.
+
+## Como criar uma branch?
+Criamos uma branch com o seguinte comando: *git branch nome_branch*
+
+* Para saber qual branch você está atuando pode-se utilizar o seguinte comando *git log --oneline --decorate* (para onde o ponteiro HEAD estiver apontando, significa qual branch estamos).
+
+* Para apontarmos o HEAD para a branch que foi criada utilizamos o comando *git checkout nome_branch*.
+
+* O novo arquivo *gitinigore* serve para dizer ao GIT o que queremos que ele ignore o rastreamento.
