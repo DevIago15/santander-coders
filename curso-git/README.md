@@ -41,4 +41,8 @@ Criamos uma branch com o seguinte comando: *git branch nome_branch*
 
 * Para apontarmos o HEAD para a branch que foi criada utilizamos o comando *git checkout nome_branch*.
 
-* O novo arquivo *gitinigore* serve para dizer ao GIT o que queremos que ele ignore o rastreamento.
+* O novo arquivo *gitinigore* serve para dizer ao GIT o que queremos que ele ignore o rastreamento. (criei uma branch chamada "teste", inclui um gitignore somente nela, commitei, e dei checkout para a main, fazendo com que o arquivo gitignore suma da main e fique somente na branch teste).
+
+* Para listar todas as branches existentes, podemos utilizar o comando *git branch*
+
+* Para mergear as branches utilizamos o comando *git merge nome_branch*
