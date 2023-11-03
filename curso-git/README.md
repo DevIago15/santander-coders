@@ -1,4 +1,4 @@
-# Curso Git - Trilha Digital | Web Back-End (GIT)
+# Curso Git - Trilha Digital | Web Back-End 
 O git é uma ferramenta de versionamento de código, onde podemos usar para versionar completamente nosso código caso necessário, além de poder salva-los em um repositório online.
 
 Essa ferramenta segue uma ordem cronológica de estados onde o arquivo/projeto passa por todas elas até chegar no repositório.
