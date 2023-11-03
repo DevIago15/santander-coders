@@ -1,14 +1,23 @@
 # Curso Git - Trilha Digital | Web Back-End (GIT)
-Há quatro tipos de estados no GIT, sendo eles
+O git é uma ferramenta de versionamento de código, onde podemos usar para versionar completamente nosso código caso necessário, além de poder salva-los em um repositório online.
 
-### Untracked
-Um arquivo que ainda não foi trackeado, ou seja, não iniciamos o GIT nele ainda
+Essa ferramenta segue uma ordem cronológica de estados onde o arquivo/projeto passa por todas elas até chegar no repositório.
 
-### Unmodified
-Um arquivo que já foi trackeado com o GIT, comittado e possivelmente até que esteja em um repositório mas NÃO teve nenhuma MODIFICAÇÃO, ou seja, subiu e NÃO foi MODIFICADO
+Há quatro tipos de estados no GIT, sendo eles:
 
-### Modified
-Um arquivo que já foi trackeado com o GIT, commitado e possivelmente até subido para o repositório mas que teve alguma MODIFICAÇÃO ou seja, está sendo ou foi MODIFICADO (git status no terminal mostra o que teve de modificação em relação ao que está na maquina com a ultima atualização do repositório online)
+## Untracked
+Um arquivo que ainda não foi trackeado, ou seja, não iniciamos o GIT nele ainda.
 
-### Staged
-Esse estado se define em fazer todas as configurações do arquivo (git add, git branch, git remote add origin...) até dar o COMMIT.
+## Unmodified
+Um arquivo que já foi trackeado com o GIT, porém não foi MODIFICADO.
+
+## Modified
+Um arquivo que já foi trackeado com o GIT e MODIFICADO.
+Podemos utilizar o *git status* no terminal para mostrar o status do arquivo/projeto.
+Pode-se utilizar também o *git diff* no terminal para mostrar exatamente o que foi modificado, qual linha e o que foi feito. Caso dermos um *git add*, o diff não irá funcionar com a última atualização do repositório, então teremos que dar um *git diff --staged* para mostrar as diferenças que foram adicionadas no arquivo.
+
+## Staged
+Esse estado se define em fazer todas as configurações do arquivo (git add, git branch, git remote add origin...) até dar o COMMIT para o repositório.
+Podemos utilizar o *git log* onde é mostrado todo o histórico dos commits do arquivo/projeto. Nesse log é mostrado a HASH onde através dele podemos dar o *git restore* para voltar a versão do arquivo/projeto.
+
+* teste
