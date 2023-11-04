@@ -111,5 +111,12 @@ A latência é a duração da nossa requisição, podendo ser rápida ou lenta, 
 * netstat: mapear quais portas estão sendo utilizadas no nosso computador.
 
 ## Segurança
+A segurança é uma das coisas mais importantes na internet, ela pode ser dada através de:
+* Segurança Física: É a segurança nos servidores físicos, no datacenter da empresa.
+
+* Segurança Lógica: É dada através de SSO, uma aplicação que permite o usuário a conectar em outros lugares com a mesma senha, exemplo conectar no Github com a conta do Google, a conexão é feita através de uma API que solicita informações à um SSO. Através também de Firewall, conexões via VPN.
 
 ## Wireless
+São nossas redes sem fio, que se dão atrvés de de ondas de rádio frequência que são divididas em:
+* Banda: Conceito de canal, seria a "nossa estrada" para ir a um destino final.
+* Frequência: Se dá ao total de "faixas" na nossa estrada, quanto mais *megahertz*, mais requisições conseguimos receber e enviar ao mesmo tempo.
